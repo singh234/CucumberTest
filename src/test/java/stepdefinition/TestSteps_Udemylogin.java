@@ -78,11 +78,7 @@ public class TestSteps_Udemylogin {
 	    
 	}
 	
-	@Then("^I should find My Courses Link not appearing$")
-	public void i_should_find_My_Courses_Link_not_appearing() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-		Assert.assertEquals("Abcdhefg", base.driver.findElement(By.linkText("My Courses")).getText());
-	}
+
 
 	
 	public class user{
